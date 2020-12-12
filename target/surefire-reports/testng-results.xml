@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-13T18:04:40 BST" name="All Test Suite" finished-at="2020-09-13T18:06:24 BST" duration-ms="103281">
+    <groups>
+    </groups>
+    <test started-at="2020-09-13T18:04:40 BST" name="First Maven Project" finished-at="2020-09-13T18:06:24 BST" duration-ms="103281">
+      <class name="rocksolicitors.TabletTest">
+        <test-method signature="mobileWebLogin()[pri:0, instance:rocksolicitors.TabletTest@3f6f6701]" started-at="2020-09-13T18:06:20 BST" name="mobileWebLogin" finished-at="2020-09-13T18:06:20 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileWebLogin -->
+        <test-method signature="tearDown()[pri:0, instance:rocksolicitors.TabletTest@3f6f6701]" started-at="2020-09-13T18:06:20 BST" name="tearDown" finished-at="2020-09-13T18:06:20 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="checkHomePage()[pri:0, instance:rocksolicitors.TabletTest@3f6f6701]" started-at="2020-09-13T18:06:20 BST" name="checkHomePage" finished-at="2020-09-13T18:06:20 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHomePage -->
+        <test-method is-config="true" signature="CleaningUpTheEnvironment()[pri:0, instance:rocksolicitors.TabletTest@3f6f6701]" started-at="2020-09-13T18:06:20 BST" name="CleaningUpTheEnvironment" finished-at="2020-09-13T18:06:24 BST" duration-ms="3514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CleaningUpTheEnvironment -->
+      </class> <!-- rocksolicitors.TabletTest -->
+      <class name="rocksolicitors.RESTAPITest">
+        <test-method signature="deleteTwitter()[pri:0, instance:rocksolicitors.RESTAPITest@2d52216b]" started-at="2020-09-13T18:06:20 BST" name="deleteTwitter" finished-at="2020-09-13T18:06:20 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTwitter -->
+        <test-method signature="postJira()[pri:0, instance:rocksolicitors.RESTAPITest@2d52216b]" started-at="2020-09-13T18:06:20 BST" name="postJira" finished-at="2020-09-13T18:06:20 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postJira -->
+      </class> <!-- rocksolicitors.RESTAPITest -->
+      <class name="rocksolicitors.SeleniumTest">
+        <test-method is-config="true" signature="PreparingEnvironment()[pri:0, instance:rocksolicitors.SeleniumTest@771a660]" started-at="2020-09-13T18:04:40 BST" name="PreparingEnvironment" finished-at="2020-09-13T18:04:52 BST" duration-ms="11678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreparingEnvironment -->
+        <test-method signature="BrowserAutomation()[pri:0, instance:rocksolicitors.SeleniumTest@771a660]" started-at="2020-09-13T18:04:52 BST" name="BrowserAutomation" finished-at="2020-09-13T18:06:20 BST" duration-ms="88057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserAutomation -->
+        <test-method signature="elements()[pri:0, instance:rocksolicitors.SeleniumTest@771a660]" started-at="2020-09-13T18:06:20 BST" name="elements" finished-at="2020-09-13T18:06:20 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elements -->
+      </class> <!-- rocksolicitors.SeleniumTest -->
+      <class name="rocksolicitors.AppiumTest">
+        <test-method signature="NativeAppAndroid()[pri:0, instance:rocksolicitors.AppiumTest@242b836]" started-at="2020-09-13T18:06:20 BST" name="NativeAppAndroid" finished-at="2020-09-13T18:06:20 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NativeAppAndroid -->
+        <test-method signature="SymbianAPP()[pri:0, instance:rocksolicitors.AppiumTest@242b836]" started-at="2020-09-13T18:06:20 BST" name="SymbianAPP" finished-at="2020-09-13T18:06:20 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SymbianAPP -->
+        <test-method signature="IOSApps()[pri:0, instance:rocksolicitors.AppiumTest@242b836]" started-at="2020-09-13T18:06:20 BST" name="IOSApps" finished-at="2020-09-13T18:06:20 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IOSApps -->
+      </class> <!-- rocksolicitors.AppiumTest -->
+    </test> <!-- First Maven Project -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
