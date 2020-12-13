@@ -15,6 +15,7 @@ public class AppiumTest {
     public void IOSApps(){
         System.out.println("IOSApps");
         System.out.println("This is Apple");
+        System.out.println("git from indian dude");
     }
 
     @Test
