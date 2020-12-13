@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="rocksolicitors.TestlistenersTest"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="First Maven Project">
+        <classes>
+            <class name="rocksolicitors.SeleniumTest">
+                <methods>
+                    <include name="BrowserAutomation"/>
+                    <include name="elements"/>
+                </methods>
+            </class>
+            <class name="rocksolicitors.RESTAPITest">
+                <methods>
+                    <include name="postJira"/>
+                    <include name="deleteTwitter"/>
+                </methods>
+            </class>
+            <class name="rocksolicitors.AppiumTest">
+                <methods>
+                    <include name="NativeAppAndroid"/>
+                    <include name="IOSApps"/>
+                    <include name="SymbianAPP"/>
+                </methods>
+            </class>
+            <class name="rocksolicitors.TabletTest">
+                <methods>
+                    <include name="mobileWebLogin"/>
+                    <include name="checkHomePage"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
