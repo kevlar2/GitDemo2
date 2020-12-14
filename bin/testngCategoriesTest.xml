@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="rocksolicitors.TestlistenersTest"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="Selenium Web Test">
+        <classes>
+            <class name="rocksolicitors.SeleniumTest">
+                <methods>
+                    <include name="BrowserAutomation"/>
+                    <include name="elements"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Mobile Test">
+        <classes>
+            <class name="rocksolicitors.AppiumTest">
+                <methods>
+                    <include name="NativeAppAndroid"/>
+                    <include name="IOSApps"/>
+                    <include name="SymbianAPP"/>
+                </methods>
+            </class>
+            <class name="rocksolicitors.TabletTest">
+                <methods>
+                    <include name="mobileWebLogin"/>
+                    <include name="checkHomePage"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="API Test">
+        <classes>
+            <class name="rocksolicitors.RESTAPITest">
+                <methods>
+                    <include name="postJira"/>
+                    <exclude name="deleteTwitter"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

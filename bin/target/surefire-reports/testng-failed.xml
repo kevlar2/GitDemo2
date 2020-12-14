@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="rocksolicitors.TestlistenersTest"/>
+  </listeners>
+  <test thread-count="5" name="Selenium Web Test(failed)" verbose="0">
+    <classes>
+      <class name="rocksolicitors.SeleniumTest">
+        <methods>
+          <include name="PreparingEnvironment"/>
+          <include name="BrowserAutomation"/>
+        </methods>
+      </class> <!-- rocksolicitors.SeleniumTest -->
+    </classes>
+  </test> <!-- Selenium Web Test(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
