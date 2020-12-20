@@ -9,6 +9,7 @@ public class RESTAPITest {
     public void postJira(){
         System.out.println("postJira");
         System.out.println("Git Test");
+        System.out.println("Git test by nigerian dude");
     }
 
     @Test
