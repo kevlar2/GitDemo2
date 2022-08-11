@@ -1,135 +1,75 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="104.364" tests="10" errors="0" skipped="0" failures="0">
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="10" failures="0" name="TestSuite" time="55.438" errors="0" skipped="0">
   <properties>
-    <property name="sun.desktop" value="windows"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.specification.version" value="12"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\kevinogaga\eclipse-workspace\Firstmavenproject\target\test-classes;C:\Users\kevinogaga\eclipse-workspace\Firstmavenproject\target\classes;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\kevinogaga\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\kevinogaga\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\kevinogaga\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\kevinogaga\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\kevinogaga\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\kevinogaga\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\kevinogaga\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\kevinogaga\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\kevinogaga\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\kevinogaga\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\kevinogaga\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\kevinogaga\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\kevinogaga\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\kevinogaga\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\kevinogaga\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\kevinogaga\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\kevinogaga\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\kevinogaga\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\kevinogaga\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\kevinogaga\.m2\repository\io\appium\java-client\7.3.0\java-client-7.3.0.jar;C:\Users\kevinogaga\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\kevinogaga\.m2\repository\org\apache\httpcomponents\httpclient\4.5.9\httpclient-4.5.9.jar;C:\Users\kevinogaga\.m2\repository\org\apache\httpcomponents\httpcore\4.4.11\httpcore-4.4.11.jar;C:\Users\kevinogaga\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\kevinogaga\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\kevinogaga\.m2\repository\cglib\cglib\3.2.12\cglib-3.2.12.jar;C:\Users\kevinogaga\.m2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;C:\Users\kevinogaga\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\kevinogaga\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\kevinogaga\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\kevinogaga\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\kevinogaga\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\kevinogaga\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\kevinogaga\.m2\repository\org\springframework\spring-context\5.1.8.RELEASE\spring-context-5.1.8.RELEASE.jar;C:\Users\kevinogaga\.m2\repository\org\springframework\spring-aop\5.1.8.RELEASE\spring-aop-5.1.8.RELEASE.jar;C:\Users\kevinogaga\.m2\repository\org\springframework\spring-beans\5.1.8.RELEASE\spring-beans-5.1.8.RELEASE.jar;C:\Users\kevinogaga\.m2\repository\org\springframework\spring-core\5.1.8.RELEASE\spring-core-5.1.8.RELEASE.jar;C:\Users\kevinogaga\.m2\repository\org\springframework\spring-jcl\5.1.8.RELEASE\spring-jcl-5.1.8.RELEASE.jar;C:\Users\kevinogaga\.m2\repository\org\springframework\spring-expression\5.1.8.RELEASE\spring-expression-5.1.8.RELEASE.jar;C:\Users\kevinogaga\.m2\repository\org\aspectj\aspectjweaver\1.9.4\aspectjweaver-1.9.4.jar;C:\Users\kevinogaga\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\kevinogaga\.m2\repository\io\rest-assured\rest-assured\4.3.1\rest-assured-4.3.1.jar;C:\Users\kevinogaga\.m2\repository\org\codehaus\groovy\groovy\3.0.3\groovy-3.0.3.jar;C:\Users\kevinogaga\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.3\groovy-xml-3.0.3.jar;C:\Users\kevinogaga\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\kevinogaga\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\kevinogaga\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\kevinogaga\.m2\repository\io\rest-assured\json-path\4.3.1\json-path-4.3.1.jar;C:\Users\kevinogaga\.m2\repository\org\codehaus\groovy\groovy-json\3.0.3\groovy-json-3.0.3.jar;C:\Users\kevinogaga\.m2\repository\io\rest-assured\rest-assured-common\4.3.1\rest-assured-common-4.3.1.jar;C:\Users\kevinogaga\.m2\repository\io\rest-assured\xml-path\4.3.1\xml-path-4.3.1.jar;C:\Users\kevinogaga\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\kevinogaga\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\kevinogaga\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
-    <property name="user.timezone" value="Europe/London"/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="java.vm.specification.version" value="12"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="18.0.1+10"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/temurin-18.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/kevinorukele/Javaprojects/gitjavaprojects/GitDemo2"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="user.country" value="GB"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk\bin"/>
-    <property name="sun.java.command" value="C:\Users\kevinogaga\AppData\Local\Temp\surefire8339131488293936635\surefirebooter15702868190615843552.jar C:\Users\kevinogaga\AppData\Local\Temp\surefire8339131488293936635 2020-09-13T18-04-38_914-jvmRun1 surefire3679795905234915463tmp surefire_018335597729377476275tmp"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/kevinorukele/Javaprojects/gitjavaprojects/GitDemo2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="18.0.1+10"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.io.tmpdir" value="/var/folders/m7/qx3gs1vn759drs83phwq2jg80000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/opt/mvn/apache-maven-3.8.4/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/kevinorukele/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/opt/mvn/apache-maven-3.8.4/conf"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\kevinogaga\eclipse-workspace\Firstmavenproject\target\test-classes;C:\Users\kevinogaga\eclipse-workspace\Firstmavenproject\target\classes;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\kevinogaga\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\kevinogaga\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\kevinogaga\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\kevinogaga\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\kevinogaga\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\kevinogaga\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\kevinogaga\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\kevinogaga\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\kevinogaga\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\kevinogaga\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\kevinogaga\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\kevinogaga\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\kevinogaga\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\kevinogaga\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\kevinogaga\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\kevinogaga\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\kevinogaga\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\kevinogaga\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\kevinogaga\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\kevinogaga\.m2\repository\io\appium\java-client\7.3.0\java-client-7.3.0.jar;C:\Users\kevinogaga\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\kevinogaga\.m2\repository\org\apache\httpcomponents\httpclient\4.5.9\httpclient-4.5.9.jar;C:\Users\kevinogaga\.m2\repository\org\apache\httpcomponents\httpcore\4.4.11\httpcore-4.4.11.jar;C:\Users\kevinogaga\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\kevinogaga\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\kevinogaga\.m2\repository\cglib\cglib\3.2.12\cglib-3.2.12.jar;C:\Users\kevinogaga\.m2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;C:\Users\kevinogaga\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\kevinogaga\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\kevinogaga\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\kevinogaga\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\kevinogaga\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\kevinogaga\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\kevinogaga\.m2\repository\org\springframework\spring-context\5.1.8.RELEASE\spring-context-5.1.8.RELEASE.jar;C:\Users\kevinogaga\.m2\repository\org\springframework\spring-aop\5.1.8.RELEASE\spring-aop-5.1.8.RELEASE.jar;C:\Users\kevinogaga\.m2\repository\org\springframework\spring-beans\5.1.8.RELEASE\spring-beans-5.1.8.RELEASE.jar;C:\Users\kevinogaga\.m2\repository\org\springframework\spring-core\5.1.8.RELEASE\spring-core-5.1.8.RELEASE.jar;C:\Users\kevinogaga\.m2\repository\org\springframework\spring-jcl\5.1.8.RELEASE\spring-jcl-5.1.8.RELEASE.jar;C:\Users\kevinogaga\.m2\repository\org\springframework\spring-expression\5.1.8.RELEASE\spring-expression-5.1.8.RELEASE.jar;C:\Users\kevinogaga\.m2\repository\org\aspectj\aspectjweaver\1.9.4\aspectjweaver-1.9.4.jar;C:\Users\kevinogaga\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\kevinogaga\.m2\repository\io\rest-assured\rest-assured\4.3.1\rest-assured-4.3.1.jar;C:\Users\kevinogaga\.m2\repository\org\codehaus\groovy\groovy\3.0.3\groovy-3.0.3.jar;C:\Users\kevinogaga\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.3\groovy-xml-3.0.3.jar;C:\Users\kevinogaga\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\kevinogaga\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\kevinogaga\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\kevinogaga\.m2\repository\io\rest-assured\json-path\4.3.1\json-path-4.3.1.jar;C:\Users\kevinogaga\.m2\repository\org\codehaus\groovy\groovy-json\3.0.3\groovy-json-3.0.3.jar;C:\Users\kevinogaga\.m2\repository\io\rest-assured\rest-assured-common\4.3.1\rest-assured-common-4.3.1.jar;C:\Users\kevinogaga\.m2\repository\io\rest-assured\xml-path\4.3.1\xml-path-4.3.1.jar;C:\Users\kevinogaga\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\kevinogaga\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\kevinogaga\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\kevinogaga"/>
+    <property name="java.class.version" value="62.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="12.5"/>
+    <property name="library.jansi.path" value="/opt/mvn/apache-maven-3.8.4/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/kevinorukele"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="18"/>
+    <property name="user.name" value="kevinorukele"/>
+    <property name="java.class.path" value="/opt/mvn/apache-maven-3.8.4/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/temurin-18.jdk/Contents/Home"/>
+    <property name="apple.awt.application.name" value="Launcher"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2019-04-16"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk"/>
-    <property name="testng.dtd.http" value="true"/>
-    <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\kevinogaga\eclipse-workspace\Firstmavenproject"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\kevinogaga\AppData\Local\Temp\surefire8339131488293936635\surefirebooter15702868190615843552.jar"/>
-    <property name="user.script" value=""/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="12.0.1+12"/>
-    <property name="user.name" value="kevinogaga"/>
-    <property name="path.separator" value=";"/>
-    <property name="os.version" value="10.0"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="localRepository" value="C:\Users\kevinogaga\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="C:\Users\KEVINO~1\AppData\Local\Temp\"/>
-    <property name="java.version" value="12.0.1"/>
-    <property name="user.dir" value="C:\Users\kevinogaga\eclipse-workspace\Firstmavenproject"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;E:\WebDrivers;C:\Users\kevinogaga\AppData\Local\Programs\Python\Python37-32\Selenium\WebDrivers;C:\Program Files\Java\jdk\bin;C:\Users\kevinogaga\apache-maven-3.6.2\bin;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Program Files\Git\cmd;C:\Users\kevinogaga\AppData\Local\Microsoft\WindowsApps;C:\Users\kevinogaga\AppData\Local\atom\bin;C:\Users\kevinogaga\AppData\Local\Programs\Python\Python37-32;C:\Users\kevinogaga\AppData\Local\Programs\Python\Python37-32\Scripts;E:\Program Files\JetBrains\PyCharm Community Edition 2019.1.1\bin;;E:\WebDrivers;C:\Users\kevinogaga\AppData\Local\Programs\Python\Python37-32\Selenium\WebDrivers;;C:\Users\kevinogaga\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kevinogaga\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.3\bin;;."/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="12.0.1+12"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="56.0"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="18.0.1"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.stderr.encoding" value="UTF-8"/>
+    <property name="maven.home" value="/opt/mvn/apache-maven-3.8.4"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2022-04-19"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Temurin-18.0.1+10"/>
+    <property name="sun.stdout.encoding" value="UTF-8"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="BrowserAutomation" classname="rocksolicitors.SeleniumTest" time="88.03">
-    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
-System Starting Up
-Preparing Environment for testing. This should always execute before any test.
-
-Starting BrowserAutomation Test
-BrowserAutomation
-Validating refer to a friend button
-Test BrowserAutomation Completed Successfully
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 14873
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Sep 13, 2020 6:04:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="elements" classname="rocksolicitors.SeleniumTest" time="0.002">
-    <system-out><![CDATA[Starting elements Test
-elements
-Test elements Completed Successfully
-]]></system-out>
-  </testcase>
-  <testcase name="postJira" classname="rocksolicitors.RESTAPITest" time="0.002">
-    <system-out><![CDATA[Starting postJira Test
-postJira
-Test postJira Completed Successfully
-]]></system-out>
-  </testcase>
-  <testcase name="deleteTwitter" classname="rocksolicitors.RESTAPITest" time="0.003">
-    <system-out><![CDATA[Starting deleteTwitter Test
-deleteTwitter
-Test deleteTwitter Completed Successfully
-]]></system-out>
-  </testcase>
-  <testcase name="NativeAppAndroid" classname="rocksolicitors.AppiumTest" time="0.002">
-    <system-out><![CDATA[Starting NativeAppAndroid Test
-NativeAppAndroid
-Test NativeAppAndroid Completed Successfully
-]]></system-out>
-  </testcase>
-  <testcase name="IOSApps" classname="rocksolicitors.AppiumTest" time="0.001">
-    <system-out><![CDATA[Starting IOSApps Test
-IOSApps
-Test IOSApps Completed Successfully
-]]></system-out>
-  </testcase>
-  <testcase name="SymbianAPP" classname="rocksolicitors.AppiumTest" time="0.001">
-    <system-out><![CDATA[Starting SymbianAPP Test
-SymbianAPP
-Test SymbianAPP Completed Successfully
-]]></system-out>
-  </testcase>
-  <testcase name="mobileWebLogin" classname="rocksolicitors.TabletTest" time="0.003">
-    <system-out><![CDATA[Starting mobileWebLogin Test
-mobileWebLogin
-Test mobileWebLogin Completed Successfully
-]]></system-out>
-  </testcase>
-  <testcase name="checkHomePage" classname="rocksolicitors.TabletTest" time="0.002">
-    <system-out><![CDATA[Starting checkHomePage Test
-checkHomePage
-Test checkHomePage Completed Successfully
-]]></system-out>
-  </testcase>
-  <testcase name="tearDown" classname="rocksolicitors.TabletTest" time="0.002">
-    <system-out><![CDATA[Starting tearDown Test
-tearDown
-
-Test tearDown Completed Successfully
-]]></system-out>
-  </testcase>
+  <testcase classname="rocksolicitors.TabletTest" name="checkHomePage" time="0.003"/>
+  <testcase classname="rocksolicitors.TabletTest" name="mobileWebLogin" time="0"/>
+  <testcase classname="rocksolicitors.TabletTest" name="tearDown" time="0"/>
+  <testcase classname="rocksolicitors.AppiumTest" name="IOSApps" time="0"/>
+  <testcase classname="rocksolicitors.AppiumTest" name="NativeAppAndroid" time="0"/>
+  <testcase classname="rocksolicitors.AppiumTest" name="SymbianAPP" time="0"/>
+  <testcase classname="rocksolicitors.SeleniumTest" name="BrowserAutomation" time="55.435"/>
+  <testcase classname="rocksolicitors.SeleniumTest" name="elements" time="0"/>
+  <testcase classname="rocksolicitors.RESTAPITest" name="deleteTwitter" time="0"/>
+  <testcase classname="rocksolicitors.RESTAPITest" name="postJira" time="0"/>
 </testsuite>
