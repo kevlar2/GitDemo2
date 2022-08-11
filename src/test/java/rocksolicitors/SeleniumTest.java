@@ -21,8 +21,15 @@ public class SeleniumTest extends Main{
         driver = new ChromeDriver();
         // Creates the property object
         Properties prop = new Properties();
-        // This allows for you to read the file
-        FileInputStream fis = new FileInputStream("C:\\Users\\kevinogaga\\eclipse-workspace\\Firstmavenproject\\data.properties");
+        String os = System.getProperty("os.name");
+        FileInputStream fis;
+        if(os.contains("Mac")){
+            // This allows for you to read the file
+            fis = new FileInputStream(System.getProperty("user.dir") + "//data.properties");
+        } else {
+            // This allows for you to read the file
+            fis = new FileInputStream(System.getProperty("user.dir") + "\\data.properties");
+        }
 
         // Now lets get the content of the file and open browser
         prop.load(fis);
