@@ -27,8 +27,7 @@ public class TabletTest extends Main{
     @AfterTest
     public void CleaningUpTheEnvironment() throws InterruptedException {
         System.out.println("Cleaning up the environment after every test has been executed. This should always execute after all test.");
-        Thread.sleep(3500);
-        driver.quit();
+
     }
 
 }

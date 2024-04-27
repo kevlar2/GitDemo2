@@ -318,7 +318,7 @@ public class SeleniumTest extends Main{
 
         Thread.sleep(3000);
 
-        driver.quit();
+//        driver.quit();
     }
 
     @Test
