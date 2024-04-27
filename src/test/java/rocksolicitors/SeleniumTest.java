@@ -22,8 +22,10 @@ public class SeleniumTest extends Main{
     public void PreparingEnvironment() throws IOException {
         System.out.println("Preparing Environment for testing. This should always execute before any test.\n");
 //        driver = new ChromeDriver();
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\webdriver\\chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless"); // Run Chrome in headless mode
+        options.setCapability("browserVersion", "89.0");
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver(options);
 

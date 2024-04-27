@@ -1,12 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 14.472 sec <<< FAILURE!
-BrowserAutomation(rocksolicitors.SeleniumTest)  Time elapsed: 3.012 sec  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "rocksolicitors.SeleniumTest.driver" is null
-	at rocksolicitors.SeleniumTest.BrowserAutomation(SeleniumTest.java:321)
-
-CleaningUpTheEnvironment(rocksolicitors.TabletTest)  Time elapsed: 3.504 sec  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "rocksolicitors.TabletTest.driver" is null
-	at rocksolicitors.TabletTest.CleaningUpTheEnvironment(TabletTest.java:31)
-
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.309 sec

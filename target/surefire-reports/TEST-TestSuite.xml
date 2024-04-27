@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="11" failures="2" name="TestSuite" time="6.517" errors="0" skipped="0">
+<testsuite tests="10" failures="0" name="TestSuite" time="3.009" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
@@ -63,22 +63,8 @@
   <testcase classname="rocksolicitors.AppiumTest" name="IOSApps" time="0"/>
   <testcase classname="rocksolicitors.AppiumTest" name="NativeAppAndroid" time="0"/>
   <testcase classname="rocksolicitors.AppiumTest" name="SymbianAPP" time="0"/>
-  <testcase classname="rocksolicitors.SeleniumTest" name="BrowserAutomation" time="3.012">
-    <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;rocksolicitors.SeleniumTest.driver&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;rocksolicitors.SeleniumTest.driver&quot; is null
-	at rocksolicitors.SeleniumTest.BrowserAutomation(SeleniumTest.java:321)
-</failure>
-    <system-out>BrowserAutomation
-Validating refer to a friend button
-</system-out>
-  </testcase>
+  <testcase classname="rocksolicitors.SeleniumTest" name="BrowserAutomation" time="3.008"/>
   <testcase classname="rocksolicitors.SeleniumTest" name="elements" time="0"/>
   <testcase classname="rocksolicitors.RESTAPITest" name="deleteTwitter" time="0"/>
   <testcase classname="rocksolicitors.RESTAPITest" name="postJira" time="0"/>
-  <testcase classname="rocksolicitors.TabletTest" name="CleaningUpTheEnvironment" time="3.504">
-    <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;rocksolicitors.TabletTest.driver&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;rocksolicitors.TabletTest.driver&quot; is null
-	at rocksolicitors.TabletTest.CleaningUpTheEnvironment(TabletTest.java:31)
-</failure>
-    <system-out>Cleaning up the environment after every test has been executed. This should always execute after all test.
-</system-out>
-  </testcase>
 </testsuite>
