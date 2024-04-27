@@ -3,34 +3,12 @@
 <suite name="Failed suite [Command line suite]" verbose="0">
   <test thread-count="5" name="Command line test(failed)" verbose="0">
     <classes>
-      <class name="rocksolicitors.RESTAPITest">
-        <methods>
-          <include name="postJira"/>
-          <include name="deleteTwitter"/>
-        </methods>
-      </class> <!-- rocksolicitors.RESTAPITest -->
-      <class name="rocksolicitors.AppiumTest">
-        <methods>
-          <include name="NativeAppAndroid"/>
-          <include name="IOSApps"/>
-          <include name="SymbianAPP"/>
-        </methods>
-      </class> <!-- rocksolicitors.AppiumTest -->
       <class name="rocksolicitors.SeleniumTest">
         <methods>
           <include name="PreparingEnvironment"/>
           <include name="BrowserAutomation"/>
-          <include name="elements"/>
         </methods>
       </class> <!-- rocksolicitors.SeleniumTest -->
-      <class name="rocksolicitors.TabletTest">
-        <methods>
-          <include name="checkHomePage"/>
-          <include name="mobileWebLogin"/>
-          <include name="CleaningUpTheEnvironment"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- rocksolicitors.TabletTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->

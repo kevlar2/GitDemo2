@@ -19,7 +19,7 @@ public class FailedTestScreenshots extends Main {
         String updatedDateTime = String.join("", newDateTime);
 
         // Path to store screenshot
-        String pathName = "C:\\Users\\kevinogaga\\eclipse-workspace\\Firstmavenproject\\Screenshots\\";
+        String pathName = System.getProperty("user.dir") + "\\Firstmavenproject\\Screenshots\\";
 
         // Screenshot object
         TakesScreenshot screenShot = (TakesScreenshot) driver;

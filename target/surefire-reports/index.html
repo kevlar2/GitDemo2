@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Command_line_suite" class="navigator-link">
-              <span class="suite-name border-passed">Command line suite</span>
+              <span class="suite-name border-failed">Command line suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods,   10 passed</span>
+                    <span class="method-stats">10 methods, 1 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods failed suite-Command_line_suite"> (hide)</a> <!-- hide-methods failed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Command_line_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="rocksolicitors.SeleniumTest" class="method navigator-link" hash-for-method="BrowserAutomation">BrowserAutomation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Command_line_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,11 +116,6 @@
                       <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
                     </span>
                     <div class="method-list-content passed suite-Command_line_suite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="rocksolicitors.SeleniumTest" class="method navigator-link" hash-for-method="BrowserAutomation">BrowserAutomation</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Command_line_suite" title="rocksolicitors.AppiumTest" class="method navigator-link" hash-for-method="IOSApps">IOSApps</a> <!-- method navigator-link -->
@@ -164,6 +173,41 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">rocksolicitors.SeleniumTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BrowserAutomation">
+                  </a> <!-- BrowserAutomation -->
+                  <span class="method-name">BrowserAutomation</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;rocksolicitors.SeleniumTest.driver&quot; is null
+	at rocksolicitors.SeleniumTest.BrowserAutomation(SeleniumTest.java:321)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">rocksolicitors.SeleniumTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="elements">
+                  </a> <!-- elements -->
+                  <span class="method-name">elements</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
           <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -182,57 +226,6 @@
                   <a name="postJira">
                   </a> <!-- postJira -->
                   <span class="method-name">postJira</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-passed -->
-          <div class="suite-Command_line_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">rocksolicitors.AppiumTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="IOSApps">
-                  </a> <!-- IOSApps -->
-                  <span class="method-name">IOSApps</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="NativeAppAndroid">
-                  </a> <!-- NativeAppAndroid -->
-                  <span class="method-name">NativeAppAndroid</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="SymbianAPP">
-                  </a> <!-- SymbianAPP -->
-                  <span class="method-name">SymbianAPP</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-passed -->
-          <div class="suite-Command_line_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">rocksolicitors.SeleniumTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="BrowserAutomation">
-                  </a> <!-- BrowserAutomation -->
-                  <span class="method-name">BrowserAutomation</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="elements">
-                  </a> <!-- elements -->
-                  <span class="method-name">elements</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -262,6 +255,35 @@
                   <a name="tearDown">
                   </a> <!-- tearDown -->
                   <span class="method-name">tearDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">rocksolicitors.AppiumTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="IOSApps">
+                  </a> <!-- IOSApps -->
+                  <span class="method-name">IOSApps</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NativeAppAndroid">
+                  </a> <!-- NativeAppAndroid -->
+                  <span class="method-name">NativeAppAndroid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SymbianAPP">
+                  </a> <!-- SymbianAPP -->
+                  <span class="method-name">SymbianAPP</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -325,48 +347,48 @@ data.addRows(10);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'BrowserAutomation')
 data.setCell(0, 2, 'rocksolicitors.SeleniumTest')
-data.setCell(0, 3, 55437);
+data.setCell(0, 3, 3009);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'checkHomePage')
-data.setCell(1, 2, 'rocksolicitors.TabletTest')
-data.setCell(1, 3, 2);
+data.setCell(1, 1, 'postJira')
+data.setCell(1, 2, 'rocksolicitors.RESTAPITest')
+data.setCell(1, 3, 1);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'tearDown')
 data.setCell(2, 2, 'rocksolicitors.TabletTest')
 data.setCell(2, 3, 1);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'SymbianAPP')
+data.setCell(3, 1, 'IOSApps')
 data.setCell(3, 2, 'rocksolicitors.AppiumTest')
 data.setCell(3, 3, 0);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'deleteTwitter')
-data.setCell(4, 2, 'rocksolicitors.RESTAPITest')
+data.setCell(4, 1, 'checkHomePage')
+data.setCell(4, 2, 'rocksolicitors.TabletTest')
 data.setCell(4, 3, 0);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'IOSApps')
-data.setCell(5, 2, 'rocksolicitors.AppiumTest')
+data.setCell(5, 1, 'elements')
+data.setCell(5, 2, 'rocksolicitors.SeleniumTest')
 data.setCell(5, 3, 0);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'postJira')
-data.setCell(6, 2, 'rocksolicitors.RESTAPITest')
+data.setCell(6, 1, 'NativeAppAndroid')
+data.setCell(6, 2, 'rocksolicitors.AppiumTest')
 data.setCell(6, 3, 0);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'mobileWebLogin')
 data.setCell(7, 2, 'rocksolicitors.TabletTest')
 data.setCell(7, 3, 0);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'NativeAppAndroid')
+data.setCell(8, 1, 'SymbianAPP')
 data.setCell(8, 2, 'rocksolicitors.AppiumTest')
 data.setCell(8, 3, 0);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'elements')
-data.setCell(9, 2, 'rocksolicitors.SeleniumTest')
+data.setCell(9, 1, 'deleteTwitter')
+data.setCell(9, 2, 'rocksolicitors.RESTAPITest')
 data.setCell(9, 3, 0);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 55 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Command_line_suite">
               </div> <!-- times-div-Command_line_suite -->
             </div> <!-- times-div -->
@@ -402,59 +424,63 @@ return data;
               <div class="chronological-class-name">rocksolicitors.TabletTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">checkHomePage</span>
-                <span class="method-start">7060 ms</span>
+                <span class="method-start">7744 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">mobileWebLogin</span>
-                <span class="method-start">7063 ms</span>
+                <span class="method-start">7745 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">7063 ms</span>
+                <span class="method-start">7745 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">rocksolicitors.AppiumTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">IOSApps</span>
-                <span class="method-start">7065 ms</span>
+                <span class="method-start">7747 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">NativeAppAndroid</span>
-                <span class="method-start">7065 ms</span>
+                <span class="method-start">7747 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">SymbianAPP</span>
-                <span class="method-start">7065 ms</span>
+                <span class="method-start">7747 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">rocksolicitors.SeleniumTest</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">BrowserAutomation</span>
-                <span class="method-start">7065 ms</span>
+                <span class="method-start">7747 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">elements</span>
-                <span class="method-start">62503 ms</span>
+                <span class="method-start">10760 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">rocksolicitors.RESTAPITest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">deleteTwitter</span>
-                <span class="method-start">62503 ms</span>
+                <span class="method-start">10761 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">postJira</span>
-                <span class="method-start">62503 ms</span>
+                <span class="method-start">10761 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">rocksolicitors.TabletTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">CleaningUpTheEnvironment</span>
-                <span class="method-start">62504 ms</span>
+                <span class="method-start">10762 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
