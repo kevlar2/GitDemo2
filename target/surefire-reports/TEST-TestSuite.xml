@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="10" failures="0" name="TestSuite" time="3.009" errors="0" skipped="0">
+<testsuite tests="10" failures="0" name="TestSuite" time="3.011" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
@@ -64,7 +64,7 @@
   <testcase classname="rocksolicitors.AppiumTest" name="NativeAppAndroid" time="0"/>
   <testcase classname="rocksolicitors.AppiumTest" name="SymbianAPP" time="0"/>
   <testcase classname="rocksolicitors.SeleniumTest" name="BrowserAutomation" time="3.008"/>
-  <testcase classname="rocksolicitors.SeleniumTest" name="elements" time="0"/>
+  <testcase classname="rocksolicitors.SeleniumTest" name="elements" time="0.002"/>
   <testcase classname="rocksolicitors.RESTAPITest" name="deleteTwitter" time="0"/>
   <testcase classname="rocksolicitors.RESTAPITest" name="postJira" time="0"/>
 </testsuite>

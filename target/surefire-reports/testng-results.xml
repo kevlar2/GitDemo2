@@ -2,62 +2,62 @@
 <testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-27T20:02:10 BST" name="Command line suite" finished-at="2024-04-27T20:02:19 BST" duration-ms="9148">
+  <suite started-at="2024-04-27T20:06:11 BST" name="Command line suite" finished-at="2024-04-27T20:06:17 BST" duration-ms="6321">
     <groups>
     </groups>
-    <test started-at="2024-04-27T20:02:10 BST" name="Command line test" finished-at="2024-04-27T20:02:19 BST" duration-ms="9148">
+    <test started-at="2024-04-27T20:06:11 BST" name="Command line test" finished-at="2024-04-27T20:06:17 BST" duration-ms="6321">
       <class name="rocksolicitors.TabletTest">
-        <test-method signature="checkHomePage()[pri:0, instance:rocksolicitors.TabletTest@6ec8211c]" started-at="2024-04-27T20:02:16 BST" name="checkHomePage" finished-at="2024-04-27T20:02:16 BST" duration-ms="0" status="PASS">
+        <test-method signature="checkHomePage()[pri:0, instance:rocksolicitors.TabletTest@6ec8211c]" started-at="2024-04-27T20:06:14 BST" name="checkHomePage" finished-at="2024-04-27T20:06:14 BST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkHomePage -->
-        <test-method signature="tearDown()[pri:0, instance:rocksolicitors.TabletTest@6ec8211c]" started-at="2024-04-27T20:02:16 BST" name="tearDown" finished-at="2024-04-27T20:02:16 BST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="mobileWebLogin()[pri:0, instance:rocksolicitors.TabletTest@6ec8211c]" started-at="2024-04-27T20:02:16 BST" name="mobileWebLogin" finished-at="2024-04-27T20:02:16 BST" duration-ms="0" status="PASS">
+        <test-method signature="mobileWebLogin()[pri:0, instance:rocksolicitors.TabletTest@6ec8211c]" started-at="2024-04-27T20:06:14 BST" name="mobileWebLogin" finished-at="2024-04-27T20:06:14 BST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileWebLogin -->
-        <test-method is-config="true" signature="CleaningUpTheEnvironment()[pri:0, instance:rocksolicitors.TabletTest@6ec8211c]" started-at="2024-04-27T20:02:19 BST" name="CleaningUpTheEnvironment" finished-at="2024-04-27T20:02:19 BST" duration-ms="0" status="PASS">
+        <test-method signature="tearDown()[pri:0, instance:rocksolicitors.TabletTest@6ec8211c]" started-at="2024-04-27T20:06:14 BST" name="tearDown" finished-at="2024-04-27T20:06:14 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="CleaningUpTheEnvironment()[pri:0, instance:rocksolicitors.TabletTest@6ec8211c]" started-at="2024-04-27T20:06:17 BST" name="CleaningUpTheEnvironment" finished-at="2024-04-27T20:06:17 BST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CleaningUpTheEnvironment -->
       </class> <!-- rocksolicitors.TabletTest -->
       <class name="rocksolicitors.RESTAPITest">
-        <test-method signature="deleteTwitter()[pri:0, instance:rocksolicitors.RESTAPITest@544a2ea6]" started-at="2024-04-27T20:02:19 BST" name="deleteTwitter" finished-at="2024-04-27T20:02:19 BST" duration-ms="0" status="PASS">
+        <test-method signature="deleteTwitter()[pri:0, instance:rocksolicitors.RESTAPITest@544a2ea6]" started-at="2024-04-27T20:06:17 BST" name="deleteTwitter" finished-at="2024-04-27T20:06:17 BST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteTwitter -->
-        <test-method signature="postJira()[pri:0, instance:rocksolicitors.RESTAPITest@544a2ea6]" started-at="2024-04-27T20:02:19 BST" name="postJira" finished-at="2024-04-27T20:02:19 BST" duration-ms="1" status="PASS">
+        <test-method signature="postJira()[pri:0, instance:rocksolicitors.RESTAPITest@544a2ea6]" started-at="2024-04-27T20:06:17 BST" name="postJira" finished-at="2024-04-27T20:06:17 BST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postJira -->
       </class> <!-- rocksolicitors.RESTAPITest -->
       <class name="rocksolicitors.SeleniumTest">
-        <test-method is-config="true" signature="PreparingEnvironment()[pri:0, instance:rocksolicitors.SeleniumTest@25bbf683]" started-at="2024-04-27T20:02:10 BST" name="PreparingEnvironment" finished-at="2024-04-27T20:02:16 BST" duration-ms="6122" status="PASS">
+        <test-method is-config="true" signature="PreparingEnvironment()[pri:0, instance:rocksolicitors.SeleniumTest@25bbf683]" started-at="2024-04-27T20:06:11 BST" name="PreparingEnvironment" finished-at="2024-04-27T20:06:14 BST" duration-ms="3299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreparingEnvironment -->
-        <test-method signature="BrowserAutomation()[pri:0, instance:rocksolicitors.SeleniumTest@25bbf683]" started-at="2024-04-27T20:02:16 BST" name="BrowserAutomation" finished-at="2024-04-27T20:02:19 BST" duration-ms="3005" status="PASS">
+        <test-method signature="BrowserAutomation()[pri:0, instance:rocksolicitors.SeleniumTest@25bbf683]" started-at="2024-04-27T20:06:14 BST" name="BrowserAutomation" finished-at="2024-04-27T20:06:17 BST" duration-ms="3005" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserAutomation -->
-        <test-method signature="elements()[pri:0, instance:rocksolicitors.SeleniumTest@25bbf683]" started-at="2024-04-27T20:02:19 BST" name="elements" finished-at="2024-04-27T20:02:19 BST" duration-ms="1" status="PASS">
+        <test-method signature="elements()[pri:0, instance:rocksolicitors.SeleniumTest@25bbf683]" started-at="2024-04-27T20:06:17 BST" name="elements" finished-at="2024-04-27T20:06:17 BST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- elements -->
       </class> <!-- rocksolicitors.SeleniumTest -->
       <class name="rocksolicitors.AppiumTest">
-        <test-method signature="IOSApps()[pri:0, instance:rocksolicitors.AppiumTest@7276c8cd]" started-at="2024-04-27T20:02:16 BST" name="IOSApps" finished-at="2024-04-27T20:02:16 BST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- IOSApps -->
-        <test-method signature="NativeAppAndroid()[pri:0, instance:rocksolicitors.AppiumTest@7276c8cd]" started-at="2024-04-27T20:02:16 BST" name="NativeAppAndroid" finished-at="2024-04-27T20:02:16 BST" duration-ms="1" status="PASS">
+        <test-method signature="NativeAppAndroid()[pri:0, instance:rocksolicitors.AppiumTest@7276c8cd]" started-at="2024-04-27T20:06:14 BST" name="NativeAppAndroid" finished-at="2024-04-27T20:06:14 BST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NativeAppAndroid -->
-        <test-method signature="SymbianAPP()[pri:0, instance:rocksolicitors.AppiumTest@7276c8cd]" started-at="2024-04-27T20:02:16 BST" name="SymbianAPP" finished-at="2024-04-27T20:02:16 BST" duration-ms="0" status="PASS">
+        <test-method signature="IOSApps()[pri:0, instance:rocksolicitors.AppiumTest@7276c8cd]" started-at="2024-04-27T20:06:14 BST" name="IOSApps" finished-at="2024-04-27T20:06:14 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IOSApps -->
+        <test-method signature="SymbianAPP()[pri:0, instance:rocksolicitors.AppiumTest@7276c8cd]" started-at="2024-04-27T20:06:14 BST" name="SymbianAPP" finished-at="2024-04-27T20:06:14 BST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SymbianAPP -->

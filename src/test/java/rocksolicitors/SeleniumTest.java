@@ -20,35 +20,35 @@ public class SeleniumTest extends Main{
 
     @BeforeTest
     public void PreparingEnvironment() throws IOException {
-        System.out.println("Preparing Environment for testing. This should always execute before any test.\n");
-//        driver = new ChromeDriver();
-        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\webdriver\\chromedriver.exe");
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless"); // Run Chrome in headless mode
-        options.setCapability("browserVersion", "89.0");
-        WebDriverManager.chromedriver().setup();
-        WebDriver driver = new ChromeDriver(options);
-
-        // Creates the property object
-        Properties prop = new Properties();
-        String os = System.getProperty("os.name");
-        FileInputStream fis;
-
-        if(os.contains("Mac")){
-            // This allows for you to read the file
-            fis = new FileInputStream(System.getProperty("user.dir") + "//data.properties");
-        } else {
-            // This allows for you to read the file
-            fis = new FileInputStream(System.getProperty("user.dir") + "\\data.properties");
-        }
-
-        // Now lets get the content of the file and open browser
-        prop.load(fis);
-        String url = prop.getProperty("URL");
-        driver.get(url);
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-
+//        System.out.println("Preparing Environment for testing. This should always execute before any test.\n");
+////        driver = new ChromeDriver();
+//        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\webdriver\\chromedriver.exe");
+//        ChromeOptions options = new ChromeOptions();
+//        options.addArguments("--headless"); // Run Chrome in headless mode
+//        options.setCapability("browserVersion", "89.0");
+//        WebDriverManager.chromedriver().setup();
+//        WebDriver driver = new ChromeDriver(options);
+//
+//        // Creates the property object
+//        Properties prop = new Properties();
+//        String os = System.getProperty("os.name");
+//        FileInputStream fis;
+//
+//        if(os.contains("Mac")){
+//            // This allows for you to read the file
+//            fis = new FileInputStream(System.getProperty("user.dir") + "//data.properties");
+//        } else {
+//            // This allows for you to read the file
+//            fis = new FileInputStream(System.getProperty("user.dir") + "\\data.properties");
+//        }
+//
+//        // Now lets get the content of the file and open browser
+//        prop.load(fis);
+//        String url = prop.getProperty("URL");
+//        driver.get(url);
+//        driver.manage().window().maximize();
+//        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        System.out.println("We are not running this test in AWS EC2 instance");
     }
 
     @Test
