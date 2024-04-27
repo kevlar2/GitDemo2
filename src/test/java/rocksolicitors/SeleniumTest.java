@@ -324,6 +324,11 @@ public class SeleniumTest extends Main{
     }
 
     @Test
+    public void JenkinsPollSCMTest() throws InterruptedException {
+        System.out.println("Jenkins poll scm test successfully done");
+    }
+
+    @Test
     public void elements(){
         System.out.println("elements");
     }
